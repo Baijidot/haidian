@@ -1,5 +1,20 @@
 {
   "schema_version": "0.1.0",
+  "provenance_passport_contract": {
+    "purpose": "Make every public AI output readable, questionable, correctable and removable.",
+    "required_fields": [
+      "source_id_and_version",
+      "intended_use_and_scope",
+      "generated_or_updated_at",
+      "license_or_authorization",
+      "known_limitations",
+      "accountable_human_reviewer",
+      "correction_channel",
+      "removal_or_stop_condition"
+    ],
+    "display_rule": "Show original evidence and machine interpretation as distinct layers; do not publish unknown, uncleared or disputed content as settled fact.",
+    "fallback_rule": "If the passport is incomplete, pause the output and route the user to source evidence or a staffed service channel."
+  },
   "sources": [
     {
       "id": "SITE-PACKAGE",

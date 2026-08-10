@@ -35,6 +35,34 @@
       "severity": "major",
       "target": "proposal.md",
       "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
+    },
+    {
+      "check_id": "BILINGUAL_SECTION_PARITY",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.en.md",
+      "message": "Chinese and English narratives both cover evidence, three scales, strategic research, overall design, land/buildings, key areas, scenes, phasing, blue-green, mobility, operations, resilience, metrics, risk and references."
+    },
+    {
+      "check_id": "PUBLIC_INTERFACE_RIGHTS",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md",
+      "message": "Readable, questionable and reversible use is implemented through accessible formats, human fallback, correction channels and exit paths."
+    },
+    {
+      "check_id": "PROVENANCE_PASSPORT",
+      "result": "pass",
+      "severity": "major",
+      "target": "sources.json",
+      "message": "Public AI outputs use a defined provenance-passport contract with accountability, correction and removal fields."
+    },
+    {
+      "check_id": "STOPPABLE_PILOT_AND_OPERATIONS",
+      "result": "pass",
+      "severity": "major",
+      "target": "metrics.json",
+      "message": "Pilot stop triggers, human continuity and baseline-pending operating metrics are explicit and are not misrepresented as observed values."
     }
   ]
 }
