@@ -1,68 +1,47 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "checks": [
     {
-      "check_id": "BOUNDARY_TRUST",
+      "check_id": "CONTENT_EVIDENCE_COVERAGE",
       "result": "pass",
       "severity": "major",
+      "target": "proposal.md + sources.json",
+      "message": "Six sourced global cases, ecosystem/factor map, 3-position/5-function/3-zone-2-wing coordination, five conversion systems, and key-area interfaces/routes/IDs are present."
+    },
+    {
+      "check_id": "BILINGUAL_PARITY_AND_DISCLAIMERS",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md + proposal.en.md",
+      "message": "Chinese and English packages carry matching case, coordination, key-area, rights and provisional/unknown caveats; English remains non-authoritative."
+    },
+    {
+      "check_id": "ARTIFACT_INTEGRITY_AND_HASHES",
+      "result": "pass",
+      "severity": "major",
+      "target": "HTML + PNG + PDF + manifest.json",
+      "message": "Offline artifacts regenerated; image/PDF signatures, PDF page counts, local references, JSON parsing and manifest hashes validated."
+    },
+    {
+      "check_id": "VISUAL_INFORMATION_DENSITY",
+      "result": "pass",
+      "severity": "major",
+      "target": "10 bilingual PNG + A0/A3 PDF",
+      "message": "Sparse four-card figures replaced by five distinct diagram types: spatial/operating loop, actor-factor network, three concept plans, five-system lifecycle, and six-case comparison; board whitespace and reading-column type were rebalanced."
+    },
+    {
+      "check_id": "BOUNDARY_TRUST",
+      "result": "pass_with_caveat",
+      "severity": "major",
       "target": "geometry/site_boundary.geojson",
-      "message": "Provisional boundary is present; replace with official redline before professional scoring."
+      "message": "Provisional boundary retained; statutory use remains blocked pending official redline."
     },
     {
       "check_id": "KEY_AREAS_TRUST",
-      "result": "pass",
+      "result": "pass_with_caveat",
       "severity": "major",
       "target": "geometry/key_areas.geojson",
-      "message": "Three required key areas are provisional; replace with official polygons before professional scoring."
-    },
-    {
-      "check_id": "LAND_USE_TOPOLOGY",
-      "result": "pass",
-      "severity": "major",
-      "target": "geometry/land_use.geojson",
-      "message": "Initial land-use polygons are derived from site boundary partitioning."
-    },
-    {
-      "check_id": "VISUAL_STATIC",
-      "result": "pass",
-      "severity": "info",
-      "target": "visual/index.html",
-      "message": "Static HTML visualization is generated without external dependencies."
-    },
-    {
-      "check_id": "PROFESSIONAL_EVIDENCE",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
-    },
-    {
-      "check_id": "BILINGUAL_SECTION_PARITY",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.en.md",
-      "message": "Chinese and English narratives both cover evidence, three scales, strategic research, overall design, land/buildings, key areas, scenes, phasing, blue-green, mobility, operations, resilience, metrics, risk and references."
-    },
-    {
-      "check_id": "PUBLIC_INTERFACE_RIGHTS",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "Readable, questionable and reversible use is implemented through accessible formats, human fallback, correction channels and exit paths."
-    },
-    {
-      "check_id": "PROVENANCE_PASSPORT",
-      "result": "pass",
-      "severity": "major",
-      "target": "sources.json",
-      "message": "Public AI outputs use a defined provenance-passport contract with accountability, correction and removal fields."
-    },
-    {
-      "check_id": "STOPPABLE_PILOT_AND_OPERATIONS",
-      "result": "pass",
-      "severity": "major",
-      "target": "metrics.json",
-      "message": "Pilot stop triggers, human continuity and baseline-pending operating metrics are explicit and are not misrepresented as observed values."
+      "message": "Three key areas and all concept IDs remain provisional; engineering and ownership confirmation required."
     }
   ]
 }
