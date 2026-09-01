@@ -2,7 +2,7 @@
 
 ## 权利结论
 
-投稿者及许可授予者为 GitHub 用户 `Baijidot`；TraeWork 是受投稿者指令完成内容整理、图形生成、排版与校验的生成工具，不是独立投稿人或权利主张主体。本提交包的中英文叙事、十张信息图、四份 PDF 及四份离线 HTML 均由 TraeWork 基于本包结构化数据与原创版式生成，并由投稿者审核后提交。逐文件作者、生成方法、输入、第三方元素、字体与许可状态见 `report/asset_rights_ledger.json`。
+投稿者及许可授予者为 GitHub 用户 `Baijidot`；TraeWork 是受投稿者指令完成内容整理、图形生成、排版与校验的生成工具，不是独立投稿人或权利主张主体。本提交包的中英文叙事、十张信息图、四份 PDF 及四份离线 HTML 均由 TraeWork 基于本包结构化数据与原创版式生成，并由投稿者审核后提交。逐文件作者、生成方法、输入、第三方元素、字体与许可状态见 `visual/assets/asset_rights_ledger.json`。
 
 ## COMMUNITY-DISPLAY-ONLY 完整条款
 
@@ -31,7 +31,7 @@
 
 ## 代码、生成工具与证明
 
-最终提交包不包含生成脚本、第三方 JavaScript 库或远程运行时代码；HTML 仅使用内嵌 CSS 和原生浏览器能力。`manifest.json` 的逐文件 SHA-256、`self_check.json` 的检查记录和 `report/asset_rights_ledger.json` 共同构成提交时点的资产证明。该证明说明可核验的生成链和许可边界，但不替代法院、行政机关或独立律师出具的权属意见。
+最终提交包不包含生成脚本、第三方 JavaScript 库或远程运行时代码；HTML 仅使用内嵌 CSS 和原生浏览器能力。`manifest.json` 的逐文件 SHA-256、`self_check.json` 的检查记录和 `visual/assets/asset_rights_ledger.json` 共同构成提交时点的资产证明。该证明说明可核验的生成链和许可边界，但不替代法院、行政机关或独立律师出具的权属意见。
 
 ## 非许可与非承诺声明
 

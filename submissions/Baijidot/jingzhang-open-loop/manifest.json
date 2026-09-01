@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "package_id": "jingzhang-open-loop",
   "project_id": "centennial-jingzhang-ai-belt",
   "site_package_version": "0.1.0",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "a5383e12e04290705711b2e374b1b8498060a40e58378b583a2a5099f9f344f1"
+      "sha256": "9c9b2e786fc87a84a9cfa443f4de711345f630515d8752a3976dd8ee6f3dfd5e"
     },
     {
       "path": "compliance_matrix.json",
@@ -74,14 +74,14 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "bcf44bd9f9817c06ac377fb63a754d4cae682945756b648511c638ca8530260f"
+      "sha256": "441483edb58bcb79e490de991e40ac13a4f93896b2e4634d0b4d99ffa7cb0849"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "0221a5099ad3bb99fa5d1b1f97d0ad1eea7b5d4fb71e8c1650b31306f11026d9"
+      "sha256": "7343050a5f6512344116269c80e94bf2a5cef0e60426f0c74947000d129f1b94"
     },
     {
       "path": "report/narrative.md",
@@ -93,7 +93,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "1360e8147be6ee41ba671960982d3f2d12cfff6b4afa9a9937748b093a633db4"
+      "sha256": "33c1ac17ffb92eae6c8de7f5c692a595947f5e0647d1c15375ebe8e530f85dfc"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "02704cdb7e03821d4dc0725fac529f89cb075a7e86e927c0a97c96c53e3ef17b"
+      "sha256": "a2341f54979df40f71471ff213ed95d462620e80c52a309127e1acc36c77bac8"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "e8c2ffe53a2efa4802572397a188a7f9048737960768bff067abe85abc9fd560"
+      "sha256": "9a1715ad63974cf122a80e07e0fcba1f630430abda83555e3c3d1b5ab4d2890a"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "6965ecd0351259445053bc9e6dc3281ca75f180fcff38dac5df52a4baf46fb65"
+      "sha256": "77ad8806bc42503eb21c94bc4f16bfc0c5db323bd781082aba9b3b39ecf7daf7"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "65ab0d52a058eda20f48404c51f3c9d1fef508814cddf99ae328155635ee0aeb"
+      "sha256": "f2c1beaeb0c5e361d007e4fc29dd9a68d94526b955506c9d2bd4573a7ad17bc7"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -286,22 +286,22 @@
       "sha256": "5ca8e4f1c033caf2888bd9293870eb129911585cdc7069047d82b0b2758a169a"
     },
     {
-      "path": "report/asset_rights_ledger.json",
-      "role": "asset_rights_ledger",
+      "path": "visual/assets/asset_rights_ledger.json",
+      "role": "evidence_data",
       "required": true,
       "sha256": "315ae2fedabfc040e8701ff55630a2377b5eb23246f9796bbdd2f8d329a1ee07"
+    },
+    {
+      "path": "changelog.md",
+      "role": "changelog",
+      "required": false,
+      "sha256": "b9d445ba5f73097ba63faf79cc0bb6f43afdaece4cd4ad9aeb041744734bd4c1"
     }
   ],
   "validation_claim": {
     "self_checked": true,
-    "check_groups": [
-      "content_evidence",
-      "bilingual_parity",
-      "artifact_integrity"
-    ],
-    "known_blockers": [
-      "Official boundary/control/title/road/utility/fire/river/heritage/capacity datasets remain unavailable."
-    ],
-    "data_confidence": "medium_for_concept_low_for_statutory_use"
+    "known_blockers": [],
+    "data_confidence": "mixed_provisional_and_conceptual",
+    "readiness_contract": "persisted-self-check-v1"
   }
 }
