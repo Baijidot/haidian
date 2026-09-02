@@ -59,13 +59,14 @@
         "submissions/Baijidot/jingzhang-open-loop/sources.json",
         "submissions/Baijidot/jingzhang-open-loop/standard_matrix.json",
         "submissions/Baijidot/jingzhang-open-loop/visual/assets/asset_rights_ledger.json",
+        "submissions/Baijidot/jingzhang-open-loop/visual/assets/implementation-chain.json",
         "submissions/Baijidot/jingzhang-open-loop/visual/index.en.html",
         "submissions/Baijidot/jingzhang-open-loop/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/Baijidot/jingzhang-open-loop": "formal"
       },
-      "total_bytes": 4575308,
+      "total_bytes": 4622473,
       "maintainer_bypass": false
     },
     "stderr": ""

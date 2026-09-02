@@ -35,6 +35,19 @@ The loop uses existing streets, park paths, transit connections and civic nodes 
 
 ![Three scales translated into one axis, one loop and three anchors](assets/figures/land-use-structure.en.png)
 
+### Spatial motif: open ring, railway pair, contribution pulses
+
+The Open Loop is not a form to be completed in one build-out; it is a spatial grammar that can work segment by segment. The **open ring** keeps apertures for entry, correction and exit rather than closing innovation inside a campus. The **railway pair** overlays the north–south continuity of Jingzhang heritage with east–west knowledge stitches among campuses, firms and communities. **Contribution pulses** make test gardens, staffed service desks, launch halls and civic landmarks legible. Together they represent public ground, cross-boundary connection and visible feedback.
+
+The motif keeps one logic at all three scales: collaboration forms the strategic loop; the park axis and walking stitches form the overall loop; and each key area forms a smaller arrival–test/service–feedback–exit loop. Dark green means dependable public ground, bright green means contribution that may grow, and orange means a gate where a person must decide. Colours and IDs are review language, not statutory classifications. No crossing, station-area addition or new building gains implementation authority from the motif alone.
+
+| Motif element | Spatial action | Operating action | Evidence boundary |
+| --- | --- | --- | --- |
+| Heritage-park public axis | retain continuous north–south public ground | host daily movement, correctable culture and public service | does not infer heritage limits, ownership or engineering conditions |
+| Open-source service loop | link anchors through existing streets, park paths, interchange and nodes | return issues after validation, transfer and release | not a new road redline; “30 minutes” is not a traffic-engineering guarantee |
+| Three contribution pulses | differentiate validation, transfer and launch interfaces | use shared IDs and handover packs | all key-area boundaries are provisional |
+| Six renewal catalysts | move from reversible installations to conditional structural work | apply continue, adjust or exit gates | later phases depend on statutory, title, engineering and operating review |
+
 ## 03 Global Cases, Ecosystem and Coordination
 
 The six references below transfer mechanisms only. Their scale, performance, development rights and governance powers are not assumed to apply in Beijing.
@@ -74,6 +87,12 @@ The quadrants hold `DZS-A01` staffed arrival, `DZS-X01` international roadshow, 
 
 All three areas share a route-ID–space-ID–component-ID–owner-ID–data-ID handover. Moving a result from `ZZY-*` to `ORG-*` requires safety retest and licence checks; moving from `ORG-*` to `DZS-*` requires a public-interest note, bilingual summary, accessibility check and exit plan. Dazhongsi feedback returns as traceable issues. These are proposal tracking IDs, not cadastral, address, approval or asset identifiers.
 
+| Key area | Irreplaceable task | Spatial prototype | Admission input | Release output | Failure fallback |
+| --- | --- | --- | --- | --- | --- |
+| Zhongzhiyuan `ZZY` | safety and engineering validation | isolatable test court + ecological buffer + staffed safety desk | issue card, protocol, data inventory, shutdown plan | `VALIDATION-PACK`: retest, risk classification and licence inventory | isolate, fix, retest or close; no public release |
+| AI Origin `ORG` | licence, procurement and community adaptation | launch hall + professional-service stops + resident bypass | validation pack, licence check, procurement evidence and objections log | `ADOPTION-PACK`: adoption boundary, staffed fallback and response record | narrow scope, add staffed service or stop pilot |
+| Dazhongsi `DZS` | public release, international interpretation and adoption feedback | four-quadrant arrival + accessible trial + compliant meeting | adoption pack, bilingual summary, accessibility, notice/deletion and exit plan | `RELEASE-RECORD`: public version, feedback issues and adopt/withdraw record | return to Origin; use ground-level improvements if engineering fails |
+
 ![Differentiated prototypes for three key areas](assets/figures/key-areas.en.png)
 
 ## 06 Five Personas
@@ -96,6 +115,19 @@ All three areas share a route-ID–space-ID–component-ID–owner-ID–data-ID 
 3. **Human–AI civic service at Origin and the park axis:** AI recommends; staff decide. Evaluate correction and takeover rates, not automation alone.
 
 ## 09 Six Renewal Cases
+
+### Five-gate implementation chain: issue to feedback
+
+The machine-readable master is `visual/assets/implementation-chain.json`. It translates the spatial motif into auditable decisions rather than presenting a concept diagram as a construction programme:
+
+1. **G0 Issue admission:** a public need, named maintainer, spatial host, public-interest note and exit condition are mandatory. Council admission permits testing, not planning or engineering approval.
+2. **G1 Zhongzhiyuan validation:** isolated testing records safety retest, data inventory, load/heat and shutdown capacity in a `VALIDATION-PACK`; unresolved severe issues cannot leave the sandbox.
+3. **G2 Origin transfer:** licence, procurement evidence, community objections and staffed fallback form the `ADOPTION-PACK`; a pilot is narrowed or stopped if public value or maintenance responsibility is unclear.
+4. **G3 Dazhongsi release:** a `RELEASE-RECORD` requires a bilingual summary, accessibility review, notice/refusal/deletion controls and an exit plan. Demonstration is not procurement, approval or routine operation.
+5. **G4 Feedback return:** issue tickets, human takeover, incident summary and maintenance capacity enter an annual continue–adjust–exit review. Basic passage and staffed service remain when a digital service stops.
+
+The chain constrains phasing. G0–G4 can run end to end through reversible pilots in years 0–2. Adaptive reuse in years 3–5 additionally requires title, fire, accessibility, utility and operating checks. Structural work after year 5 requires separate statutory planning, official redlines, specialist engineering and funding/operations decisions. Operational measures in `visual/assets/implementation-chain.json` are marked `future_operational_metric`; they are not represented as current performance.
+
 | ID | Case | Near term | Mid term | Outcome |
 | --- | --- | --- | --- | --- |
 | JZ-01 | Fifth Ring walking stitch | wayfinding, lighting, underpass pilot | structural crossing study | break-point closure |
@@ -119,8 +151,8 @@ Priority is continuous walking, accessibility, cycling, shuttle circulation, the
 
 Current reproducible values are 11,412,825.386 m² site area, 0.123423 green ratio, 0.073281 public-space ratio, three key areas, twelve scenes, three testbeds and six cases [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio]. FAR, height, road redlines and final development capacity remain unknown.
 
-Key risks are boundary/title mismatch, privacy or algorithmic harm, event disturbance, commercial capture, engineering safety and operational shortfall. Responses include recalculation, suspension and human takeover, time/capacity limits, protected public hours, non-structural fallback and modular downsizing. The full chain—geometry, metrics, five figures, HTML, PDFs and self-check—must be rerun after any official geometry replacement [depth:metrics_recalculation] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
+Key risks are boundary/title mismatch, privacy or algorithmic harm, event disturbance, commercial capture, engineering safety and operational shortfall. Responses include recalculation, suspension and human takeover, time/capacity limits, protected public hours, non-structural fallback and modular downsizing. The full chain—geometry, metrics, implementation interfaces, five figures, HTML, PDFs and self-check—must be rerun after any official geometry replacement [depth:metrics_recalculation] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
 
 ## 14 Copyright, Licence and Use Disclaimer
 
-The package uses locally generated diagrams and layouts. External case pages are cited as research evidence only; their text, images, maps, marks and design rights are not reproduced. Local fonts are runtime dependencies and are not redistributed. Provisional geometry, concept IDs and calculated ratios are not statutory redlines, approvals, addresses, engineering instructions or partnership commitments. Machine-assisted English has been human-reviewed for package parity, but official Chinese policy and legal instruments prevail. See `report/copyright_statement.md`, `sources.json` and `assumptions.json` for the asset ledger, source status and unresolved data.
+The package uses locally generated diagrams and layouts. External case pages are cited as research evidence only; their text, images, maps, marks and design rights are not reproduced. Local fonts are runtime dependencies and are not redistributed. Provisional geometry, concept IDs and calculated ratios are not statutory redlines, approvals, addresses, engineering instructions or partnership commitments. Machine-assisted English has been human-reviewed for package parity, but official Chinese policy and legal instruments prevail. See `report/copyright_statement.md`, `sources.json`, `assumptions.json` and `visual/assets/implementation-chain.json` for the asset ledger, source status, unresolved data and decision gates.
